@@ -1,0 +1,10 @@
+^C:\USERS\HAOPING\DESKTOP\CMAKETEST\VIDEOPLAYER\BUILD\CMAKEFILES\5D19E02F9FB1336F6251DDD7EA3DA1D2\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/HAOPING/Desktop/CMakeTest/videoPlayer -BC:/Users/HAOPING/Desktop/CMakeTest/videoPlayer/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/HAOPING/Desktop/CMakeTest/videoPlayer/build/videoPlayer.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

@@ -1,0 +1,10 @@
+^C:\USERS\HAOPING\DESKTOP\CMAKETEST\VIDEOPLAYER\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/HAOPING/Desktop/CMakeTest/videoPlayer -BC:/Users/HAOPING/Desktop/CMakeTest/videoPlayer/build --check-stamp-file C:/Users/HAOPING/Desktop/CMakeTest/videoPlayer/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

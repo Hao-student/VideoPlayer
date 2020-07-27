@@ -1,0 +1,3 @@
+C:/Users/HAOPING/Desktop/CMakeTest/videoPlayer/build/CMakeFiles/videoPlayer.dir
+C:/Users/HAOPING/Desktop/CMakeTest/videoPlayer/build/CMakeFiles/ALL_BUILD.dir
+C:/Users/HAOPING/Desktop/CMakeTest/videoPlayer/build/CMakeFiles/ZERO_CHECK.dir

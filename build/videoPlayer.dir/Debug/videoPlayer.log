@@ -1,0 +1,12 @@
+﻿  Building Custom Rule C:/Users/HAOPING/Desktop/CMakeTest/videoPlayer/CMakeLists.txt
+  videoPlayer.cpp
+C:\Users\HAOPING\Desktop\CMakeTest\videoPlayer\include\libavutil\rational.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+C:\Users\HAOPING\Desktop\CMakeTest\videoPlayer\videoPlayer.cpp(62,16): warning C4018: “<”: 有符号/无符号不匹配
+C:\Users\HAOPING\Desktop\CMakeTest\videoPlayer\videoPlayer.cpp(64,32): warning C4996: 'AVStream::codec': 被声明为已否决
+C:\Users\HAOPING\Desktop\CMakeTest\videoPlayer\videoPlayer.cpp(76,51): warning C4996: 'AVStream::codec': 被声明为已否决
+C:\Users\HAOPING\Desktop\CMakeTest\videoPlayer\videoPlayer.cpp(46,2): warning C4996: 'av_register_all': 被声明为已否决
+C:\Users\HAOPING\Desktop\CMakeTest\videoPlayer\videoPlayer.cpp(93,31): warning C4996: 'avpicture_get_size': 被声明为已否决
+C:\Users\HAOPING\Desktop\CMakeTest\videoPlayer\videoPlayer.cpp(94,2): warning C4996: 'avpicture_fill': 被声明为已否决
+C:\Users\HAOPING\Desktop\CMakeTest\videoPlayer\videoPlayer.cpp(132,11): warning C4996: 'avcodec_decode_video2': 被声明为已否决
+C:\Users\HAOPING\Desktop\CMakeTest\videoPlayer\videoPlayer.cpp(151,5): warning C4996: 'av_free_packet': 被声明为已否决
+  videoPlayer.vcxproj -> C:\Users\HAOPING\Desktop\CMakeTest\videoPlayer\build\Debug\videoPlayer.exe
